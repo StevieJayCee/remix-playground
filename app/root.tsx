@@ -31,3 +31,7 @@ export default function App() {
     </html>
   );
 }
+
+export function ErrorBoundary() {
+  return <h1>THIS IS THE ERROR BOUNDARY</h1>;
+}
